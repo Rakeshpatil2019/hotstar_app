@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- <h1>Hotstar</h1> -->
+    <div id="nav">
+        <div id="logo">
+            <img id="imgg" src="https://secure-media.hotstarext.com/web-assets/prod/images/brand-logos/disney-hotstar-logo-dark.svg" alt="">
+            <h4>Hotstar</h4>
+            <h4>TV</h4>
+            <h4>Movies</h4>
+            <h4>Sports</h4>
+            <h4>Disney+</h4>
+        </div>
+        <div id="ss">
+
+            <input type="text" oninput="debounce(searchmovies,1000)" id="movies_name" placeholder="Search">
+
+            <button id="sub">SUBSCRIBE</button>
+            <button id="log">LOGIN</button>
+        </div>
+    </div>
+    <div id="carous"></div>
+    <!-- <div id="ss">
+        <input type="text" id="movies_name">
+        <button onclick="searchmovies()">Search</button>
+    </div> -->
+    <div id="loader">
+        <img id="loader_gif" src="https://media0.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.webp?cid=ecf05e4750dkgdyxyw8p2okhrqdqpxbqlv7wbn4m1izsbbxm&rid=giphy.webp&ct=g" alt=" ">
+    </div>
+
+    <div id="container"></div>
+</body>
+
+</html>
+<script src="index.js">
+</script>
